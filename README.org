@@ -1,0 +1,63 @@
+* Fall 2022 - Lab 04
+
+* Last name:
+
+* First name:
+
+* GitHub username:
+
+* Notes:
+
+
+
+* General instructions:
+- Fill in your name and GitHub username on top.
+- Use the Notes section to add any notes to the instructor.
+- The main lab description can be found here:
+  https://maryash.github.io/135/labs/lab_04.html 
+
+
+* Specific instructions for lab 04
+
+For this lab, you will have to create a ~Makefile~ to build your
+project. It should create a single executable named ~main~. Use the
+Makefile from lab 03 as reference. The ~main~ function should call all
+the functions that accomplish the tasks. Those functions may not be
+written in ~main.cpp~ but rather you should create at least one
+additional ~.cpp/.h~ file(s).
+
+Write a function for each of the tasks. The functions should accept
+parameters for the assorted dimensions and should return a std::string
+with a string representing the output. Recall that you can embed a
+newline ~\n~ in a string to move to the next line. 
+
+The main function should call each task function one or more times and
+print out the results to show that everything works.
+
+For example, for task A you might write a routine with a prototype
+~std::string box(int width, int height)~.
+
+You might test it from main as follows:
+
+#+begin_src c++
+
+// more code up here
+
+std::string result;
+result = box(3,5);
+std::cout << "box(3,5):\n";
+std::cout << result
+std::cout << "\n------------------\n"; // seperator 
+
+// more tests to show that box works fully could be added
+
+// more code down here
+
+#+end_src
+
+*Note:* Remember that your program should not ask for any keyboard
+ input. When run it should clearly show that all tasks are implemented
+ and work.
+
+
+
