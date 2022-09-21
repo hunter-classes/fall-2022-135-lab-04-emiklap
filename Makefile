@@ -21,3 +21,6 @@ main.o: main.cpp box.h
 
 box.o: box.cpp box.h
 	g++ -c box.cpp
+
+clean:
+	rm -f main.o box.o

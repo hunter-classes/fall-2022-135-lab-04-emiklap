@@ -1,3 +1,3 @@
 #pragma once
 
-std::string box(int, int);
+void box(int, int);

@@ -1,18 +1,16 @@
 #include <iostream>
 
-std::string box(int w, int h) {
-    int w, h;
+void box(int w, int h) {
 
-    std::cout >> "Input width: ";
-    std::cin << w;
-    std:: >> "Input height: ";
-    std::cin << h;
+    /*std::cout << "Input width: ";
+    std::cin >> w;
+    std::cout << "Input height: ";
+    std::cin >> h;*/
 
     for (int i = 0; i < h; i++) {
-        for (int j = 0; j < w; i++) {
-            std::cout >> "*";
+        for (int j = 0; j < w; j++) {
+            std::cout << "*";
         }
-        std::cout >> "\n";
+        std::cout << "\n";
     }
-    return " ";
 }
