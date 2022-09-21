@@ -10,5 +10,9 @@ int main() {
     std::cout << "\ncheckerboard(11, 7)" << std::endl;
     checkerboard(10, 7);
 
+    std::cout << "\n \nTask C \ncross(8)" << std::endl;
+    cross(8);
+
+
     return 0;
 }
