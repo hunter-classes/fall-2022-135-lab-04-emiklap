@@ -20,5 +20,10 @@ int main() {
     std::cout << "\nlower(10)" << std::endl;
     lower(10);
 
+    std::cout << "\n \nTask D \nupper(6)" << std::endl;
+    upper(6);
+    std::cout << "\nupper(10)" << std::endl;
+    upper(10);
+
     return 0;
 }

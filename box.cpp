@@ -97,7 +97,18 @@ void lower(int s) {
         }
         std::cout << "\n";
     }
+}
 
+void upper(int s) {
 
+    for (int i = s; i >= 1; i--) {
+        for (int j = i; j < s; j++) {
+            std::cout << " ";
+        }
+        for (int j = i; j > 0; j--) {
+            std::cout << "*";
+        }
+        std::cout << "\n";
+    }
 }
 
