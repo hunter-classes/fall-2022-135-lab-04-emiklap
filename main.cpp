@@ -20,10 +20,15 @@ int main() {
     std::cout << "\nlower(10)" << std::endl;
     lower(10);
 
-    std::cout << "\n \nTask D \nupper(6)" << std::endl;
+    std::cout << "\n \nTask E \nupper(6)" << std::endl;
     upper(6);
     std::cout << "\nupper(10)" << std::endl;
     upper(10);
+
+    std::cout << "\n \nTask F \ntrapezoid(12, 5)" << std::endl;
+    trapezoid(12, 5);
+    std::cout << "\ntrapezoid(12, 7)" << std::endl;
+    trapezoid(12, 7);
 
     return 0;
 }

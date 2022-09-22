@@ -112,3 +112,24 @@ void upper(int s) {
     }
 }
 
+void trapezoid(int w, int h) {
+    int stars = w;
+    int spaces = 0;
+
+    if (h*2 > w) {
+        std::cout << "Impossible Shape! \n";
+    } else {
+        for (int i = 0; i < h; i++) {
+            for (int j = 0; j < spaces; j++) {
+                std::cout << " ";
+            }
+            for (int j = 0; j < stars; j++) {
+                std::cout << "*";
+            }
+            stars -=2;
+            spaces += 1;
+            std::cout << "\n";
+        }
+    }
+}
+

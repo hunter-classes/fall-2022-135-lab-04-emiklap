@@ -5,3 +5,4 @@ void checkerboard(int, int);
 void cross(int);
 void lower(int);
 void upper(int);
+void trapezoid(int, int);
