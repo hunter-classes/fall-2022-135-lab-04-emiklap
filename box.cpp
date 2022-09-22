@@ -72,7 +72,7 @@ void cross(int s) {
     //printing the second half of the cross
     c = 0;
     for (int i = s/2; i < s; i++) {
-        int counter = 7;
+        int counter = s-1;
         while (counter > i) { //this will put spaces before the first * when needed
             std::cout << " ";
             counter--;
@@ -87,5 +87,17 @@ void cross(int s) {
         c = c + 2;
         std::cout << "*" << std::endl; //this will put the second *
     }
+}
+
+void lower(int s) {
+
+    for (int i = 1; i <= s; i++) {
+        for (int j = 0; j < i; j++) {
+            std::cout << "*";
+        }
+        std::cout << "\n";
+    }
+
+
 }
 

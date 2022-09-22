@@ -12,7 +12,13 @@ int main() {
 
     std::cout << "\n \nTask C \ncross(8)" << std::endl;
     cross(8);
+    std::cout << "\ncross(9)" << std::endl;
+    cross(9);
 
+    std::cout << "\n \nTask D \nlower(6)" << std::endl;
+    lower(6);
+    std::cout << "\nlower(10)" << std::endl;
+    lower(10);
 
     return 0;
 }
