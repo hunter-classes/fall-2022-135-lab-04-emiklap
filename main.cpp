@@ -4,11 +4,13 @@
 int main() {
     std::cout << "Task A \nbox(7, 4)" << std::endl;
     box(7, 4);
+    std::cout << "\nbox(10, 8)" << std::endl;
+    box(10, 8);
 
     std::cout << "\n \nTask B \ncheckerboard(11, 6)" << std::endl;
     checkerboard(11, 6);
-    std::cout << "\ncheckerboard(11, 7)" << std::endl;
-    checkerboard(10, 7);
+    std::cout << "\ncheckerboard(8, 9)" << std::endl;
+    checkerboard(8, 9);
 
     std::cout << "\n \nTask C \ncross(8)" << std::endl;
     cross(8);
@@ -30,5 +32,9 @@ int main() {
     std::cout << "\ntrapezoid(12, 7)" << std::endl;
     trapezoid(12, 7);
 
+    std::cout << "\n \nTask G \ncheckerboard3x3(16, 11)" << std::endl;
+    checkerboard3x3(16, 11);
+    std::cout << "\ncheckerboard3x3(27, 27)" << std::endl;
+    checkerboard3x3(27, 27);
     return 0;
 }

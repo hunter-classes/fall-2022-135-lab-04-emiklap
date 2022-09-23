@@ -133,3 +133,51 @@ void trapezoid(int w, int h) {
     }
 }
 
+void checkerboard_row(int w) {
+    int counter = 1;
+    for (int i = 0; i < w; i++) {
+        if (counter <= 3) {
+            std::cout << "*";
+            counter++;
+        } else if (counter < 6) {
+            std::cout << " ";
+            counter++;
+        } else {
+            std::cout << " ";
+            counter = 1;
+        }
+    }
+}
+
+void checkerboard_row_2(int w) {
+    int counter = 1;
+    for (int i = 0; i < w; i++) {
+        if (counter <= 3) {
+            std::cout << " ";
+            counter++;
+        } else if (counter < 6) {
+            std::cout << "*";
+            counter++;
+        } else {
+            std::cout << "*";
+            counter = 1;
+        }
+    }
+}
+
+void checkerboard3x3(int w, int h) {
+    int counter = 1;
+    for (int i = 0; i < w; i++) {
+        if (counter <= 3) {
+            checkerboard_row(w);
+            counter++;
+        } else if (counter < 6) {
+            checkerboard_row_2(w);
+            counter++;
+        } else {
+            checkerboard_row_2(w);
+            counter = 1;
+        }
+        std::cout << "\n";
+    }
+}
